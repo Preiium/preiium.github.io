@@ -2,14 +2,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Trip to Australia</title>
+    <title>Circular Button</title>
     <style>
         /* Style for the circular button */
         .circle-button {
             display: inline-block;
             width: 50px;
             height: 50px;
-            background-color: #65a5f7; /* Change this to your preferred background color */
+            background-color: #3498db; /* Change this to your preferred background color */
             border-radius: 50%;
             text-align: center;
             line-height: 50px;
@@ -20,10 +20,27 @@
 
         /* Hover effect */
         .circle-button:hover {
-            background-color: #5891db; /* Change this to the hover background color */
+            background-color: #2980b9; /* Change this to the hover background color */
         }
     </style>
 </head>
+<body>
+
+    <!-- Circular button -->
+    <a href="day-1" id="myButton" class="circle-button">Day 1</a>
+
+    <script>
+        // JavaScript function to handle button click
+        function handleButtonClick() {
+            alert('Button Clicked!');
+            // You can add more functionality here as needed
+        }
+
+        // Add click event listener to the button
+        document.getElementById('myButton').addEventListener('click', handleButtonClick);
+    </script>
+
+</body>
 <body>
 
     <!-- Circular button -->
